@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "tastynote",
+    "packageName": "kr.ec.tastynote",
+    "packageFolder": "kr/ec/tastynote",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "335b1227cc23b70d9c268a10540d3a17914c4bd5",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}

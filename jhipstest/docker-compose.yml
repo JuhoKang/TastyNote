@@ -1,0 +1,8 @@
+jhipster-dev-mongodb:
+  container_name: tastynote-dev-mongodb
+  image: mongo:3.0.7
+  # volumes:
+  # - ~/volumes/jhipster/tastynote/dev-mongodb/:/data/db/
+  ports:
+  - "27017:27017"
+
